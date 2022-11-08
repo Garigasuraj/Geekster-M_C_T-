@@ -1,0 +1,233 @@
+.beody{
+    background-image: url(images/gratisography-317H-free-stock-photo.jpg);
+    background-repeat: no-repeat;
+    
+    width: 1440px;
+    height: 765px;
+    background-size: 1525px 800px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-shrink: 0; */
+    margin: 18px 80px;
+}
+.header div{
+    font-size: 22px;
+    font-family: Roboto ;
+    font-weight: 500;
+    color: white;
+    margin-right:29px;
+    cursor: pointer;
+}
+.check-out{
+    padding: 7px 17px;
+    background-color: #B7EAAF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.header-hover{
+    position: relative;
+}
+.header-hover:hover .header-tooltip{
+    opacity: 1;
+}
+.header-tooltip{
+    width: 180px; height: 200px;
+    font-weight: 600;
+    padding: 10px 0px;
+    position: absolute;
+    left:-60px; top: 40px;
+    background-color:#213F36;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.15s;
+    /* pointer-events: none; */
+}
+.header-tooltip div{
+    width: 170px;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+.header-tooltip div:hover{
+    background:#B7EAAF;
+    color: black;
+    font-weight: 600;
+}
+.lk{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    position: absolute;
+    top: 200px;
+    left: 170px;
+    z-index: 6;
+}
+.heading{
+    color: white;
+    font-family: Roboto;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom:25px;
+}
+.content-inside{
+    color:rgb(184, 224, 179);
+    text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+.content-1{
+    color: white;
+    width: 400px;
+    height: 72px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+.content-heading{
+    width: 172px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #D2FFCB;
+}
+.service-button{
+    padding: 18px 48px;
+    font-size: 24px;
+    line-height: 100%;
+    Width:260px;
+    Height:60px;
+    text-align: center;
+    border-radius: 40px;
+    border: none; color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    background: linear-gradient(90deg, rgba(127, 202, 33, 0.8) 0%, #105200 100%);
+    position: absolute;
+    left: 0;
+    top: 270px;
+}
+.author{
+    width: 94px;
+    height: 16px;color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 16px;
+    position: absolute;
+    left: 0;
+    top: 330px;
+}
+.bottom-logo{
+    position: absolute;
+    left: 0;
+    top:370px;
+}
+
+
+
+
+.side-boxes{
+    /* background-color: aquamarine; */
+    /* width: 300px;
+    height: 225px; */
+    position: absolute;
+    right: 505px; left:810px;
+    top: 360px;
+    z-index: 5;
+    cursor: pointer;
+}
+.side-boxes-1{
+    /* background-color: rgb(1, 26, 18); */
+    /* width: 300px;
+    height: 225px; */
+    position: absolute;
+    top: 360px; 
+    right: 40px; left: 1170px;
+    z-index: 5;
+    cursor: pointer;
+}
+/* .floatiog-window{
+    position: relative;
+} */
+.float{
+    width: 315px;
+    height: 225px;
+}
+.float-name{
+    position: absolute;
+    bottom: 200px; top:0px;
+    left: 0; right: 0;
+    margin: 25px;
+    width: 99px; height: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Roboto;
+    line-height: 100%;
+}
+.float-num{
+    width: 100px; height: 18px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    font-family: Roboto;
+    line-height: 100%;
+    position: absolute;
+    bottom: 5px; top: 158px;
+    left: 0;
+    margin: 25px;
+}
+.float-icon-2{
+    position: absolute;
+    bottom: 25px;
+    right: 20px; left: 255px;
+}
+.float-icon-1{
+    position: absolute;
+    bottom: 25px;
+    right: -80px; left: 255px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wave{
+    position: fixed;
+    bottom: 0;left: 0;
+}
+
