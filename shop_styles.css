@@ -132,10 +132,6 @@
     left: 0;
     top:370px;
 }
-
-
-
-
 .side-boxes{
     /* background-color: aquamarine; */
     /* width: 300px;
@@ -156,9 +152,6 @@
     z-index: 5;
     cursor: pointer;
 }
-/* .floatiog-window{
-    position: relative;
-} */
 .float{
     width: 315px;
     height: 225px;
@@ -197,37 +190,7 @@
     bottom: 25px;
     right: -80px; left: 255px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .wave{
     position: fixed;
     bottom: 0;left: 0;
 }
-
